@@ -2454,7 +2454,6 @@ end
 	--Hard fast
 
 	local plr = game.Players.LocalPlayer
-	local CbFw = debug.getupvalues(require(plr.PlayerScripts.CombatFramework))
 	local CbFw2 = CbFw[2]
 
 	function GetCurrentBlade() 
